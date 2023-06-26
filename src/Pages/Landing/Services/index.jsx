@@ -28,14 +28,23 @@ const Services = () => {
         ]}
       >
         {true && (
-          <video
-            autoPlay
-            muted
-            src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
-            width={"80%"}
-            height={"100%"}
-            style={{ margin: "auto", borderRadius: "10px" }}
-          />
+          <Stack style={{ margin: "auto" }} align="center">
+            <video
+              autoPlay
+              muted
+              src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
+              width={"80%"}
+              height={"100%"}
+              style={{ borderRadius: "10px" }}
+            />
+            <Text w="80%" align="center" color="gray">
+              Our organization is driven by a commitment to break down barriers,
+              fight discrimination and improve the lives of Roma individuals and
+              families. With a deep understanding of your unique challenges and
+              cultural heritage, we offer a range of services tailored to your
+              specific needs.
+            </Text>
+          </Stack>
         )}
         <Container className={classes.servicesSub}>
           <Flex gap={"xl"} className={classes.cat}>
@@ -55,7 +64,7 @@ const Services = () => {
             <img src={surgery} height={"100%"} />
             <Stack spacing={"0px"}>
               <Text fw={"bold"} fz="lg">
-                Surgey
+                Surgery
               </Text>
               <Text>
                 There are many variations of passages of Lorem Ipsum

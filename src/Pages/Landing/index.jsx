@@ -11,6 +11,7 @@ import Footer from "../../components/Footer";
 import AppScreenshots from "./AppScreenshots";
 import { ArrowNarrowUp } from "tabler-icons-react";
 import { useStyles } from "./styles";
+import Donations from "./Donations";
 
 const Landing = () => {
   const { classes } = useStyles();
@@ -66,6 +67,9 @@ const Landing = () => {
       </div>
       <div id="reviews">
         <AppReviews />
+      </div>
+      <div id="donate">
+        <Donations />
       </div>
       <div id="ss">
         <AppScreenshots />

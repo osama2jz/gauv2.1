@@ -29,16 +29,20 @@ const Header = ({ opened, toggle, onClick }) => {
         backgroundColor: "rgb(45, 62, 80)",
       }}
     >
-      <Flex align={"center"} className={classes.logo}>
+      <Flex
+        align={"center"}
+        className={classes.logo}
+        onClick={() => onClick("home")}
+      >
         <img src={logo} width={60} />
         <Text fw={"bold"} fz={20}>
           GAU
         </Text>
       </Flex>
       <Flex gap={"lg"} align={"center"} className={classes.navigationBar}>
-        <Text className={classes.link} onClick={() => onClick("home")}>
+        {/* <Text className={classes.link} onClick={() => onClick("home")}>
           {translate("Home")}
-        </Text>
+        </Text> */}
         <Link className={classes.link} onClick={() => onClick("about")}>
           {translate("About Us")}
         </Link>
@@ -51,7 +55,9 @@ const Header = ({ opened, toggle, onClick }) => {
         <Link className={classes.link} onClick={() => onClick("reviews")}>
           {translate("Reviews")}
         </Link>
-
+        <Link className={classes.link} onClick={() => onClick("donate")}>
+          {translate("Donations")}
+        </Link>
         <Link className={classes.link} onClick={() => onClick("ss")}>
           {translate("Screenshots")}
         </Link>

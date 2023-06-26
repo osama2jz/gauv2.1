@@ -9,7 +9,7 @@ export const useStyles = createStyles((theme, props) => ({
     color: "white",
     minHeight: "400px",
     position: "relative",
-    paddingTop: "250px !important",
+    paddingTop: "150px !important",
     marginBottom: "20px",
     ":after": {
       content: '""',

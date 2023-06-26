@@ -9,7 +9,7 @@ export const Card = ({ icon, label, value }) => {
         src={new URL(`../../../assets/${icon}.svg`, import.meta.url).href}
         width={"40px"}
       />
-      <Text>{label}</Text>
+      <Text fw="bold">{label}</Text>
       <Text>{value}</Text>
     </Box>
   );

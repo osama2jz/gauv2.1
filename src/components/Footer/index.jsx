@@ -48,22 +48,23 @@ const Footer = () => {
           <Flex gap={"lg"}>
             <Phone className={classes.icon} />
             <Text>
-              +012 345 678 102 <br />
-              +012 345 678 102
+              +86-432-423443
+              <br />
+              +86-432-423443
             </Text>
           </Flex>
           <Flex gap={"lg"}>
             <Mail className={classes.icon} />
             <Text>
-              mailto:support@devitems.com
-              <br /> https://devitems.com/
+              mailto:gau@gmail.com
+              <br /> https://gauapp.es/
             </Text>
           </Flex>
           <Flex gap={"lg"}>
             <MapPin className={classes.icon} />
             <Text>
-              Dev Items address goes here,
-              <br /> street,Crossroad123.
+              Madrid, Spain
+              <br /> Madrid, Spain
             </Text>
           </Flex>
         </Stack>

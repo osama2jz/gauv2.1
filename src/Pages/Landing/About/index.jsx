@@ -47,10 +47,10 @@ const About = () => {
             one act of kindness at a time. Join us on our mission and together
             let's make a difference that really matters .
           </Text>
-          <Group>
+          {/* <Group>
             <Button label={"Download"} />
             <Button label={"Learn More"} variant="outline" />
-          </Group>
+          </Group> */}
         </Stack>
       </SimpleGrid>
       <Projects />
