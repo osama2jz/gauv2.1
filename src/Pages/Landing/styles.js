@@ -164,7 +164,8 @@ export const useStyles = createStyles((theme, props) => ({
   appSS: {
     height: "500px",
     width: "50%",
-    margin: "auto",
+    marginInline: "auto",
+    marginBlock: "100px",
     [`@media (max-width: 1200px)`]: {
       width: "100%",
     },

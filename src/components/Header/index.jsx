@@ -45,14 +45,15 @@ const Header = ({ opened, toggle, onClick }) => {
         <Link className={classes.link} onClick={() => onClick("services")}>
           {translate("Services")}
         </Link>
+        <Link className={classes.link} onClick={() => onClick("download")}>
+          {translate("Download")}
+        </Link>
         <Link className={classes.link} onClick={() => onClick("reviews")}>
           {translate("Reviews")}
         </Link>
-        <Link className={classes.link} to="">
-          {translate("Donations")}
-        </Link>
-        <Link className={classes.link} to="">
-          {translate("Our Partner")}
+
+        <Link className={classes.link} onClick={() => onClick("ss")}>
+          {translate("Screenshots")}
         </Link>
         <Link className={classes.link} onClick={() => onClick("footer")}>
           {translate("Contact Us")}
