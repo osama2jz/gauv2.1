@@ -145,7 +145,7 @@ const AppReviews = () => {
         m="auto"
       >
         <Title order={2}>{display.name}</Title>
-        <Rating value={3} />
+        <Rating value={3} readOnly/>
         <Text> {display.review}</Text>
       </Stack>
     </Flex>
